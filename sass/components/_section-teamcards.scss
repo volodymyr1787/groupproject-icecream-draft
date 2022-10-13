@@ -1,0 +1,54 @@
+.teamcard {
+    background: var(--grey-fon);
+}
+
+.teamcard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+
+@media screen and (min-width:768px) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+}
+
+
+&__block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--primary-white-fon);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+&__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+   
+}
+
+&__item {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+    color: var(--item-text-color);
+
+}
+
+&__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+}

@@ -1,0 +1,48 @@
+.soc-networks {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+&__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: var(--primary-white-fon);
+    border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+&__link:hover,
+&__link:focus {
+    background-color: var(--accent-color);
+
+}
+
+&__link:hover &__icon {
+    fill: var(--white-text-color);
+}
+
+&__link:focus &__icon {
+    fill: var(--white-text-color);
+}
+
+&__icon {
+    fill: var(--logo-fill);
+}
+
+&__link--footer {
+    background: rgba(255, 255, 255, 0.1);   
+}
+
+&__icon--footer {
+    fill: var(--white-text-color);
+}
+}
