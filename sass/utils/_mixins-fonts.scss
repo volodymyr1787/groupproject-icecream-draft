@@ -1,0 +1,469 @@
+/*body base fonts*/
+
+@mixin base-fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
+
+@mixin section_title-fonts {
+    font-family: 'Seymour One';
+    font-size: 30px;
+    line-height: 1.27;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-size: 34px;
+        line-height: 1.26;
+        letter-spacing: 0.06em;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 36px;
+        line-height: 1.25;
+    }
+}
+
+@mixin section_label-fonts {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-size: 22px;
+        line-height: 1.23;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 30px;
+    }
+}
+
+/*кнопки*/
+
+@mixin btn-fonts {
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+
+/*nav-menu fonts*/ 
+
+@mixin nav-fonts {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.22;
+
+    @media screen and (min-width:768px) {
+        font-size: 48px;
+        line-height: 1.23;
+        }
+    
+    @media screen and (min-width:1200px) {
+        font-size: 16px;
+        line-height: 1.25;
+        }
+}
+
+
+/*hero fonts*/
+
+/*заголовок*/
+@mixin hero_title-fonts {
+    font-family: 'Seymour One';
+    font-size: 26px;
+    line-height: 1.27;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 38px;
+    }
+}
+
+/*якірні посилання*/
+@mixin id_item-fonts {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1.25;
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
+/*кількість кафе і вагончиків*/
+
+@mixin number_hero-fonts {
+    @media screen and (min-width:768px) {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.21;
+        text-transform: uppercase;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 46px;
+        line-height: 1.22;
+    }
+}
+
+@mixin cafes_trucks-fonts {
+    @media screen and (min-width:768px) {
+        font-size: 8px;
+        line-height: 1.25;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        line-height: 1.22;
+    }
+}
+
+
+/*lorem in hero*/
+@mixin hero_text-fonts {
+    @media screen and (min-width:768px) {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+    }
+}
+
+
+/*section products*/
+
+
+@mixin products_title-fonts {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-size: 22px;
+        line-height: 1.23;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 30px;
+    }
+}
+
+@mixin products_item-fonts {
+    line-height: 1.79;
+
+    @media screen and (min-width:1200px) {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+}
+
+/*section about*/
+
+@mixin about_text-fonts {
+    font-size: 12px;
+    line-height: 1.76;
+
+    @media screen and (min-width:1200px) {
+        font-size: 16px;
+    }
+
+}
+
+/*section advantages*/
+
+@mixin advan_number-fonts {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-size: 48px;
+        line-height: 1.23;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 58px;
+    }
+}
+
+@mixin advan_text-fonts {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    text-transform: uppercase;
+
+    @media screen and (min-width:768px) {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+}
+
+/*section customer reviews*/
+
+
+@mixin reviews-fonts {
+    font-size: 12px;
+    line-height: 2.58;
+
+    @media screen and (min-width:768px) {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.86;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-size: 16px;
+    }
+}
+
+@mixin customer-fonts {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.86;
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+    }
+}
+
+/*section contacts*/
+
+
+@mixin contacts_title-fonts {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.85;
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+    }
+    
+}
+
+@mixin contacts_item-fonts {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.85;
+
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+    }
+}
+
+@mixin contacts_link-fonts {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+        line-height: 1.83;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+    }
+}
+
+/*footer*/
+
+@mixin footer_title-fonts {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2;
+
+    @media screen and (min-width:768px) {
+        font-size: 48px;
+        letter-spacing: 0.06em;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 58px;
+    }
+}
+
+@mixin footer_label-fonts {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+
+    @media screen and (min-width:768px) {
+        font-size: 26px;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 30px;
+    }
+}
+
+@mixin footer_contacts-fonts {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.86;
+
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+}
+
+@mixin footer_end-fonts {
+    font-weight: 700;
+    line-height: 1.5;
+
+    @media screen and (min-width:768px) {
+        line-height: 1.86;
+        letter-spacing: 0.02em;
+    }
+
+    @media screen and (min-width:768px) {
+        font-size: 12px;
+    }
+}
+
+/*modal windows*/
+
+@mixin btn_modal-fonts {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+    }
+}
+
+@mixin modal_title-fonts {
+    font-family: 'Seymour One';
+    font-size: 16px;
+    line-height: 1.5;
+
+    @media screen and (min-width:768px) {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+}
+
+@mixin modal_form-fonts {
+    font-size: 12px;
+    line-height: 1.4;
+
+    @media screen and (min-width:768px) {
+        font-size: 14px;
+    }
+}
+
+@mixin modal_text-fonts {
+    line-height: 1.4;
+
+    @media screen and (min-width:768px) {
+        font-size: 16px;
+    }
+}
+
+/* Modal Buy now*/
+
+@mixin bnproduct_title-fonts {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+
+/* Modal ingredients відрізняється від інших модалок*/
+
+
+@mixin modaling_title-fonts {
+    font-family: 'Seymour One';
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@mixin organic_weight-fonts {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 2.8;
+
+    @media screen and (min-width:768px) {
+        font-size: 12px;
+        line-height: 2.3;
+    }
+}
+
+@mixin organic_title-fonts {
+    font-size: 10px;
+    line-height: 1.2;
+
+    @media screen and (min-width:768px) {
+        font-size: 12px;
+        line-height: 1.25;
+    }
+}
+
+
+@mixin modaling_titleing-fonts {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+@mixin ingredient_item-fonts {
+    font-size: 14px;
+    line-height: 1.76;
+}
+
+@mixin modaling_form-fonts {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@mixin btn_modaling-fonts {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
