@@ -1,0 +1,32 @@
+.hero {
+    &__title {
+        color: #FCFCFC;
+        @include hero_title-fonts;
+    }
+
+    &__lorem {
+        color: #FCFCFC;
+        @include hero_text-fonts;
+    }
+    
+}
+
+.anchors {
+    &__item {}
+    &__products {
+        color: #131313;
+        @include anchors_link-fonts;
+        text-decoration: none;
+
+        border: 2px solid #F8D24E;
+        border-radius: 10px;
+    }
+
+    &__about {
+        color: #F8D24E;
+        @include anchors_link-fonts;
+    }
+    
+}
+
+
